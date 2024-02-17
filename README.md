@@ -6,6 +6,9 @@ This repository contains a custom implementation of a basic ray tracing algorith
 ## About Ray Tracing
 Ray tracing is a rendering technique that computes the color of pixels by tracing the path that light would take as it travels through a scene. The basic idea is simple yet powerful: for each pixel in the image, a ray is cast from the camera (viewer’s eye position) through that pixel. The ray extends into the scene, intersecting with any objects it encounters. When a ray intersects an object, we calculate the color of that point on the surface. The algorithm considers various optical effects, including reflection, refraction, and shadows.
 
+![image](https://github.com/Alexandra2802/RayTracer/assets/76787341/fadbe208-2b4e-421a-bd30-47acdf953598)
+
+
 This technique can simulate complex optical effects, including:
 
 - Direct illumination: Light coming directly from a light source.
